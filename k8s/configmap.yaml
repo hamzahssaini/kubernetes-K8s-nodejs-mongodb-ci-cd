@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: hamza-config
-  namespace: hamza-project
-data:
-  PORT: "80"

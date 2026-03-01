@@ -17,7 +17,7 @@ COPY .env .env
 COPY . .
 
 # Expose app port (change if not 3000)
-EXPOSE 80
+EXPOSE 8080
 
 # Start app
 CMD ["node", "app.js"]

@@ -57,7 +57,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="container">
-        <h1>🌐Hello from App.js running in Kubernetes!</h1>
+        <h1>🌐Hello from App.js running in Kubernetes From AKS in Azure!</h1>
         <p>Welcome from <strong>Hamza Hssaini</strong></p>
         <form action="/register" method="POST">
           <input type="text" name="name" placeholder="Enter your username" required />
